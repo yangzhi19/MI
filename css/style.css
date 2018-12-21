@@ -159,15 +159,14 @@
 	width: 234px;
 	height: 460px;
 	background:rgba(0,0,0,0.5);
+	padding: 20px 0;
+	box-sizing: border-box;
 	left: 0;
 	top: 0;
 	position: absolute;
 }
-.banner-left>ul{
-	width: 100%;
-	height: 420px;
-	margin: 20px 0;
-}
+
+
 .banner-left>ul>li{
 	width: 204px;
 	height: 42px;
