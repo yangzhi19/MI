@@ -1678,6 +1678,7 @@ main {
 	width: 1226px;
 	height: 343px;
 	margin: 0px auto;
+	margin-bottom: 50px;
 }
 
 .video-top {
@@ -1763,3 +1764,242 @@ main {
 
 
 /* 视频结束 */
+/* 底部开始 */
+.dibu{
+	width: 100vw;
+	height: 272px;
+	background: #fff;
+}
+.dibu-con{
+	width: 1226px;
+	height: 272px;
+	margin: 0 auto;
+}
+.dibu-top{
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid #E0E0E0;
+	box-sizing: border-box;
+}
+.dibu-top ul li{
+	width: 20%;
+	height: 25px;
+	margin: 27px 0;
+	border-right: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	float: left;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	transition: all 0.3s;
+}
+.dibu-top ul li i{
+	font-size: 24px;
+	vertical-align: middle;
+}
+.dibu-top ul li span{
+	vertical-align: middle;
+}
+.dibu-top ul li:hover{
+	color: #ff5b00;
+}
+.dibu-top ul .list{
+	border: none;
+}
+.dibu-bottom{
+	width: 100%;
+	height: 192px;
+	padding: 40px 0;
+	box-sizing: border-box;
+}
+.dibu-bottom-left{
+	width: 980.8px;
+	height: 112px;
+	float: left;
+}
+.dibu-bottom-left>ul>li{
+	width: calc(980px / 6);
+	height: 112px;
+	float: left;
+}
+.dibu-bottom-left>ul .list6{
+	border-right: 1px solid #E0E0E0;
+	box-sizing: border-box;
+}
+.dibu-bottom-left>ul>li .list1{
+	width: 100%;
+	height: 18px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #424242;
+}
+.dibu-bottom-left>ul>li .list2{
+	width: 100%;
+	height: 18px;
+	margin-top: 10px;
+	color: #727272;
+	font-size: 12px;
+	line-height: 18px;
+}
+.dibu-bottom-left>ul>li .list2:hover{
+	color: #FF5B00;
+}
+
+.dibu-bottom-right{
+	width: 245.2px;
+	height: 112px;
+	float: left;
+}
+.dibu-bottom-right>ul>li{
+	width: 100%;
+	height: calc(112px / 3);
+}
+.dibu-bottom-right>ul .list3{
+	font-size: 22px;
+    line-height:calc(112px / 3);
+	text-align: center;
+    color: #ff6700;
+}
+.dibu-bottom-right>ul .list4{
+	font-size: 12px;
+	color: #616161;
+	line-height: calc(112px / 3 / 2);
+	text-align: center;
+}
+.dibu-bottom-right>ul .list5{
+	padding-top: 7px;
+	box-sizing: border-box;
+	color: #ff6700;
+	text-align: center;
+	font-size: 12px;
+	line-height: 30px;
+}
+.dibu-bottom-right>ul .list5-text{
+	width: 120px;
+	height: 30px;
+	border:1px solid #ff6700;
+	margin: 0 auto;
+	transition: all 0.3s;
+}
+.dibu-bottom-right>ul .list5-text i{
+	font-size: 20px;
+	vertical-align: middle;
+}
+.dibu-bottom-right>ul .list5-text:hover{
+	color: #fff;
+	background: #FF6700;
+}
+
+
+
+.guding{
+	width: 27px;
+	height: 216px;
+	position: fixed;
+	right: 33px;
+	top: 125px;
+}
+.guding li{
+	width: 27px;
+	height: 40px;
+	background:#fff;
+	border-bottom: 1px solid #E0E0E0;
+	padding: 10px 3.5px;
+	box-sizing: border-box;
+}
+.guding .guding-car{
+	border: 5px;
+}
+.guding .guding-top{
+	border: none;
+	margin-top: 16px;
+}
+.guding li>img{
+	width: 20px;
+	height: 20px;
+}
+.guding .guding-geren .guding-text{
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	right: 27px;
+	top: 45px;
+	position: absolute;
+	background: #fff;
+	display: none;
+}
+.guding .guding-geren:hover .guding-text{
+	display: block;
+}
+.guding .guding-erji .guding-text{
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	right: 27px;
+	top: 85px;
+	position: absolute;
+	background: #fff;
+	display: none;
+}
+.guding .guding-erji:hover .guding-text{
+	display: block;
+}
+.guding .guding-car .guding-text{
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	right: 27px;
+	top: 125px;
+	position: absolute;
+	background: #fff;
+	display: none;
+}
+.guding .guding-car:hover .guding-text{
+	display: block;
+}
+.guding .guding-top .guding-text{
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	right: 27px;
+	top: 181px;
+	position: absolute;
+	background: #fff;
+	display: none;
+}
+.guding .guding-top:hover .guding-text{
+	display: block;
+}
+.guding .guding-phone .saoyisao{
+	width: 130px;
+	height: 189px;
+	background: #fff;
+	right: 30px;
+	top: 0;
+	position: absolute;
+	text-align: center;
+	display: none;
+}
+
+.guding .guding-phone .saoyisao img{
+	width: 100px;
+	height: 100px;
+	margin: 15px 0;
+}
+.guding .guding-phone .saoyisao .text{
+	color: #757575;
+    font-size: 14px;
+}
+.guding .guding-phone:hover .saoyisao{
+	display: block;
+}
+/* 底部结束 */
