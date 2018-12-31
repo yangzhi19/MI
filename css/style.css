@@ -248,7 +248,7 @@
 	padding: 18px 20px;
 	box-sizing: border-box;
 	font-size: 14px;
-	color: #33;
+	color: #333;
 }
 .banner-left>ul .box p img{
 	width: 40px;
@@ -259,9 +259,7 @@
 	float: left;
 	line-height: 40px;
 }
-.banner-left>ul .box p a:hover{
-	color: #ff5b00;
-}
+
 .banner-left>ul .box p:hover{
 	color: #ff5b00;
 }
