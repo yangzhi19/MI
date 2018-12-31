@@ -178,6 +178,7 @@
 	float: left;
 	text-align: center;
 	cursor: pointer;
+	line-height: 48px;
 }
 .head1-right-box2:hover{
 	background: #ff5b00;
@@ -197,10 +198,7 @@
 
 }
 
-.head1-right-box2 i {
-	line-height: 48px;
-	text-align: center;
-}
+
 
 /* 导航结束 */
 
@@ -2067,7 +2065,7 @@ main {
 .end .bottom .text3{
 	width: 267px;
 	float: left;
-	margin-left: 541px;
+	margin-left: 479.5px;
 }
 .end .bottom .text3 img{
 	width: 267px;
