@@ -259,7 +259,9 @@
 	float: left;
 	line-height: 40px;
 }
-
+.banner-left>ul .box p a:hover{
+	color: #ff5b00;
+}
 .banner-left>ul .box p:hover{
 	color: #ff5b00;
 }
