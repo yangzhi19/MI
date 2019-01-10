@@ -351,7 +351,7 @@ main{
 	box-sizing: border-box;
 	margin-bottom: 14px;
 }
-.weinituijian-bottom>ul .list{
+.weinituijian-bottom>ul .list1{
 	margin-left: 0;
 }
 .text-gouwuche{
@@ -405,3 +405,326 @@ main{
 }
 
 /* 为你推荐结束 */
+
+
+
+.fenge{
+	height: 450px;
+	width: 100vw;
+	margin: 0 auto;
+}
+.list{
+	height: 70px;
+	width: 1226px;
+	background: #fff;
+	margin: 0 auto;
+	border-bottom: 2px solid #e0e0e0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.list .middle{
+	height: 20px;
+	width: 1190px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.list .middle .left{
+	width: 260px;
+	height: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.list .middle .left .box1{
+	width: 60px;
+	height: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.list .middle .left .box1 i{
+	display: block;
+	height: 20px;
+	width: 20px;
+	background: #ff5b00;
+	text-align: center;
+	line-height: 20px;
+	color: #fff;
+}
+.list .middle .left .box1 span{
+	display: block;
+	font-size: 14px;
+	color: #000;
+}
+.list .middle .left .box2{
+	font-size: 14px;
+	color: #000;
+}
+.list .middle .right{
+	width: 520px;
+	height: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 35px;
+	
+}
+.list .middle .right .zuo{
+	height: 20px;
+	width: 390px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.list .middle .right .zuo span{
+	display: block;
+	font-size: 14px;
+	color: #000;
+}
+.list .middle .right .you{
+	font-size: 14px;
+	color: #000;
+
+}
+.xq{
+	width: 1226px;
+	height: 295px;
+	background: #fff;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.xq .xq1{
+	width: 1180px;
+	height: 295px;
+	margin-right: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.xq .xq1 .s{
+	width: 1180px;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.xq .xq1 .s i{
+	display: block;
+	height: 20px;
+	width: 20px;
+	background: #ff5b00;
+	text-align: center;
+	line-height: 20px;
+	color: #fff;
+}
+.xq .xq1 .s img{
+	width: 60px;
+	height: 70px;
+}
+.xq .xq1 .s span{
+	font-size: 18px;
+	color: #000;
+}
+.xq .xq1 .s .price{
+	font-size: 14px;
+	color: #000;
+}
+.xq .xq1 .s .hezi{
+	width: 150px;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.xq .xq1 .s .hezi .jia{
+	font-size: 12px;
+	color: #000;
+	border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	height: 40px;
+	width: 37px;
+	text-align: center;
+	line-height: 40px;
+	border-right: 0 ;
+}
+.xq .xq1 .s .hezi .geshu{
+	width: 75px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 12px;
+	color: #000;
+	background: #fff;
+}
+.xq .xq1 .s .hezi .jian{
+	height: 40px;
+	width: 37px;
+	font-size: 12px;
+	color: #000;
+	border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 40px;
+	border-left: 0 ;
+}
+.xq .xq1 .s .price1{
+	font-size: 14px;
+	color: #ff5b00;
+}
+.xq .xq1 .s .cheng{
+	height: 12px;
+	width: 12px;
+	margin-right: 30px;
+}
+.xq .xq1 .z{
+	height: 100px;
+	width: 1100px;
+	margin-left: 100px;
+	
+}
+.xq .xq1 .z .box{
+	height: 50px;
+	width: 1100px;
+	border: 2px solid #f2f2f2; 
+	box-sizing: border-box;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.xq .xq1 .z .box .yuan{
+	height: 24px;
+	width: 24px;
+	background: #ff5b00;
+	border-radius: 50%;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 24px;
+	margin-left: 20px;
+}
+.xq .xq1 .z .box span{
+	display: block;
+	font-size: 12px;
+	color: #000;
+	margin-left: 10px;
+}
+.xq .xq1 .z .box .hongzi{
+	font-size: 12px;
+	color: #ff5b00;
+	margin-left: 10px;
+}
+.xq .xq1 .z .box:nth-child(2){
+	height: 50px;
+	width: 1100px;
+	border: 2px solid #f2f2f2; 
+	box-sizing: border-box;
+	border-top: 0;
+}
+.xq .xq1 .x{
+	height: 50px;
+	width: 1100px;
+	margin-left: 100px;
+	border: 2px solid #f2f2f2; 
+	box-sizing: border-box;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	
+}
+.xq .xq1 .x .yuan{
+	height: 24px;
+	width: 24px;
+	background: #ff5b00;
+	border-radius: 50%;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 24px;
+	margin-left: 20px;
+}
+.xq .xq1 .x span{
+	display: block;
+	font-size: 12px;
+	color: #000;
+	margin-left: 10px;
+}
+.xq .xq1 .x .hongzi{
+	font-size: 12px;
+	color: #ff5b00;
+	margin-left: 10px;
+}
+.fenge1{
+	height: 20px;
+	width: 1226px;
+	background: #f2f2f2;
+	margin: 0 auto;
+	
+}
+.fuwu{
+	height: 50px;
+	width: 1226px;
+	background: #fff;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.fuwu .left{
+	height: 50px;
+	width: 350px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.fuwu .left .you{
+	height: 50px;
+	width: 160px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.fuwu .left .you span{
+	
+	font-size: 14px;
+	color: #000;
+}
+.fuwu .left .you span:nth-child(2){
+	color: #ff5b00;
+}
+.fuwu .left .you span:nth-child(5){
+	color: #ff5b00;
+}
+.fuwu .right{
+	height: 50px;
+	width: 380px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.fuwu .right span:nth-child(1){
+	font-size: 12px;
+	color: #ff5b00;
+	margin-top: 5px;
+}
+.fuwu .right span:nth-child(2){
+	font-size: 22px;
+	color: #ff5b00;
+	margin-right: 70px;
+}
+.fuwu .right .jiesuan{
+	width: 200px;
+	height: 50px;
+	background: #ff5b00;
+	text-align: center;
+	align-items: center;
+	line-height: 50px;
+	font-size: 18px;
+	color: #fff;
+}

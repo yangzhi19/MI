@@ -1,7 +1,7 @@
 
 /* 头部开始 */
 .head {
-	width: 100%;
+	width: 100vw;
 	height: 40px;
 	background: #363636;
 }
@@ -82,7 +82,7 @@
 /* 头部结束 */
 /* 导航开始 */
 .head1 {
-	width: 100%;
+	width: 100vw;
 	height: 100px;
 }
 

@@ -1,6 +1,6 @@
 /* 头部开始 */
 .head {
-	width: 100%;
+	width: 100vw;
 	height: 40px;
 	background: #363636;
 }
@@ -80,7 +80,7 @@
 /* 头部结束 */
 /* 导航开始 */
 .head1 {
-	width: 100%;
+	width: 100vw;
 	height: 100px;
 }
 
@@ -204,6 +204,10 @@
 
 
 /* 轮播开始 */
+.banner-con{
+	width: 100vw;
+	height: 460px;
+}
 .banner {
 	width: 1226px;
 	height: 460px;
@@ -353,6 +357,10 @@
 /* 轮播结束 */
 
 /* 广告开始 */
+.ad-con{
+	width: 100vw;
+	height: 170px;
+}
 .ad {
 	width: 1226px;
 	height: 170px;
@@ -466,6 +474,10 @@
 
 
 /* 小米闪购开始 */
+.xiaomishangou-con{
+	width: 100vw;
+	height: 438px;
+}
 .xiaomishangou {
 	width: 1226px;
 	height: 438px;
@@ -651,6 +663,10 @@
 }
 
 /* 小米闪购结束 */
+.xiaomiplay-con{
+	width: 100vw;
+	height: 120px;
+}
 .xiaomiplay {
 	width: 1226px;
 	height: 120px;
@@ -664,7 +680,7 @@
 }
 
 main {
-	width: 100%;
+	width: 100vw;
 	height: 5000px;
 	background: #f5f5f5;
 	padding: 22px 0;
