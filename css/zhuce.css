@@ -1,0 +1,164 @@
+.zhuce{
+	width: 100%;
+	height: 549px;
+	background: #f9f9f9;
+}
+.zhuce-con{
+	width:854px;
+	height: 100%;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0 34px;
+	text-align: center;
+}
+.zhuce-con img{
+	margin-bottom: 40px;
+}
+.zhuce-con .list1{
+	font-size: 30px;
+	color: #333;
+}
+.zhuce-con .list2{
+	width: 332px;
+	font-size: 14px;
+	color: #333;
+	margin: 0 auto;
+	text-align: left;
+}
+.zhuce-con .list2 a{
+	width: 100%;
+	height: 40px;
+	padding-left: 10px;
+	border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	position: relative;
+	display: block;
+	margin-top: 5px;
+}
+.zhuce-con .list2 input{
+	width: 282px;
+	height: 100%;
+	background: #fff;
+	border: none;
+}
+.zhuce-con .list2 .box{
+	width: 40px;
+	height: 40px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	right: 0;
+	top: 0;
+	position: absolute;
+	color: #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+}
+.zhuce-con .list2>div:nth-child(3){
+	color: #666;
+}
+.zhuce-con .list3{
+	width: 332px;
+	font-size: 14px;
+	color: #333;
+	text-align: left;
+	margin: 15px auto;
+
+}
+.zhuce-con .list3 .box{
+	width: 332px;
+	height: 40px;
+	border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	margin-top: 5px;
+}
+.zhuce-con .list3 .box-left{
+	width: 72px;
+	height: 100%;
+	padding: 0 9px;
+	box-sizing: border-box;
+	line-height: 40px;
+	border-right: 1px solid #e0e0e0;
+}
+.zhuce-con .list3 .box-left i{
+	font-size: 20px;
+}
+.zhuce-con .list3 .box-left a{
+	color: #666;
+}
+.zhuce-con .list3 .box-right input{
+	border: none;
+	outline: none;
+	margin-left: 6px;
+}
+.zhuce-con .list4{
+	width: 332px;
+	height: 40px;
+	background: #ff6700;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 80px;
+	position: relative;
+}
+.zhuce-con .list4 .box{
+	width: 332px; height: 40px; background: rgba(255,255,255,0.4); left: 0; top: 0; position: absolute; display: none;"
+}
+.zhuce-con .list4:hover .box{
+	display: block;
+}
+.zhuce-con .list5{
+	font-size: 14px;
+	height: 30px;
+	margin: 0 auto;
+}
+.zhuce-con .list5 a{
+	display: flex;
+	justify-content: center;
+	color: #999;
+}
+.zhuce-con .list5 span{
+	color: #333;
+	font-weight: bold;
+}
+
+.dibu{
+	width: 100%;
+	background: #f9f9f9;
+	height:80px;
+	overflow: hidden;
+}
+.dibu .end-top{
+	width: 1226px;
+	font-size: 14px;
+	margin: 0 auto;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	color: #757575;
+}
+.dibu .end-top a{
+	color: #757575;
+}
+.dibu .end-top a:first-child{
+	color: #333;
+}
+.dibu .end-top a:hover{
+	color: #333;
+}
+.dibu .end-top span{
+	margin: 0 12px;
+}
+.dibu .end-bottom{
+	width: 1226px;
+	margin: 14px auto;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	color: #757575;
+}
