@@ -7,9 +7,9 @@
 		<link rel="shortcut icon" href="./img/favicon.ico">
 		<title>小米商城</title>
 	</head>
-	<body>
+	<body onselectstart="return false" style="position: relative;">
 		<!-- 头部开始 -->
-		<div class="head">
+		<div class="head" id="back">
 			<div class="head-con">
 				<div class="head-left">
 					<a href="https://www.mi.com/index.html">
@@ -104,6 +104,27 @@
 						<i class="iconfont">&#xe643;</i>
 					</div>
 				</div>
+
+
+				<!-- <div class="xiala">
+					<div class="xiala-con">
+						<ul>
+							<li>
+								<img src="https://i1.mifile.cn/f/i/g/2015/cn-index/mix3-320.png" alt="">
+								<div>小米MIX3</div>
+								<span>3299元起</span>
+							</li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+				</div> -->
+
+
+
 			</div>
 		</div>
 		<!-- 导航结束 -->
@@ -115,7 +136,7 @@
 
 					<div class="banner-right-picture">
 						<ul>
-							<li>
+							<li class="active">
 								<img src="img/5.jpg">
 							</li>
 							<li>
@@ -136,11 +157,13 @@
 							</li>
 						</ul>
 					</div>
+
 					<div class="banner-right-one"></div>
 					<div class="banner-right-two"></div>
+
 					<div class="banner-right-dian">
 						<ul>
-							<li class="dian1"></li>
+							<li class="dian1 active"></li>
 							<li></li>
 							<li></li>
 							<li></li>
@@ -1657,125 +1680,186 @@
 		<!-- 轮播结束 -->
 		<!-- 广告开始 -->
 		<div class="ad-con">
-		<div class="ad">
-			<div class="ad-left">
-				<ul>
-					<li class="box1">
-						<div class="line3"></div>
-						<i class="iconfont">&#xe64a;</i>
-						<p>选购手机</p>
-					</li>
-					<li class="box2">
-						<div class="line1"></div>
-						<div class="line2"></div>
-						<div class="line4"></div>
-						<i class="iconfont">&#xe644;</i>
-						<p>企业团购</p>
-					</li>
-					<li class="box3">
-						<div class="line5"></div>
-						<i class="iconfont">&#xe600;</i>
-						<p>F码通道</p>
-					</li>
-					<li>
-						<i class="iconfont">&#xe611;</i>
-						<p>米粉卡</p>
-					</li>
-					<li class="box5">
-						<div class="line6"></div>
-						<div class="line7"></div>
-						<i class="iconfont">&#xe73e;</i>
-						<p>以旧换新</p>
-					</li>
-					<li>
-						<i class="iconfont">&#xe610;</i>
-						<p>话费充值</p>
-					</li>
-				</ul>
+			<div class="ad">
+				<div class="ad-left">
+					<ul>
+						<li class="box1">
+							<div class="line3"></div>
+							<i class="iconfont">&#xe64a;</i>
+							<p>选购手机</p>
+						</li>
+						<li class="box2">
+							<div class="line1"></div>
+							<div class="line2"></div>
+							<div class="line4"></div>
+							<i class="iconfont">&#xe644;</i>
+							<p>企业团购</p>
+						</li>
+						<li class="box3">
+							<div class="line5"></div>
+							<i class="iconfont">&#xe600;</i>
+							<p>F码通道</p>
+						</li>
+						<li>
+							<i class="iconfont">&#xe611;</i>
+							<p>米粉卡</p>
+						</li>
+						<li class="box5">
+							<div class="line6"></div>
+							<div class="line7"></div>
+							<i class="iconfont">&#xe73e;</i>
+							<p>以旧换新</p>
+						</li>
+						<li>
+							<i class="iconfont">&#xe610;</i>
+							<p>话费充值</p>
+						</li>
+					</ul>
+				</div>
+				<div class="ad-right">
+					<div class="ad-right-list"><img src="img/ad1.jpg"></div>
+					<div><img src="img/ad1.jpg"></div>
+					<div><img src="img/ad1.jpg"></div>
+				</div>
 			</div>
-			<div class="ad-right">
-				<div class="ad-right-list"><img src="img/ad1.jpg"></div>
-				<div><img src="img/ad1.jpg"></div>
-				<div><img src="img/ad1.jpg"></div>
-			</div>
-		</div>
 		</div>
 		<!-- 广告结束 -->
 		<!-- 小米闪购开始 -->
 		<div class="xiaomishangou-con">
-		<div class="xiaomishangou">
-			<div class="shangou-top">
-				<div class="shangou-left">小米闪购</div>
-				<div class="shangou-right">
-					<div class="right-box1">
-						<i class="iconfont">&#xe602;</i>
+			<div class="xiaomishangou">
+				<div class="shangou-top">
+					<div class="shangou-left">小米闪购</div>
+					<div class="shangou-right">
+						<div class="right-box1">
+							<i class="iconfont">&#xe602;</i>
+						</div>
+						<div class="right-box2">
+							<i class="iconfont">&#xe61c;</i>
+						</div>
 					</div>
-					<div class="right-box2">
-						<i class="iconfont">&#xe61c;</i>
+				</div>
+				<div class="shangou-bottom">
+					<div class="shangou-left1">
+						<div class="time">20:00场</div>
+						<img src="img/shandian.png">
+						<div class="text">距离结束还有</div>
+						<div class="box box1">00</div>
+						<div class="maohao">:</div>
+						<div class="box">01</div>
+						<div class="maohao">:</div>
+						<div class="box">02</div>
+					</div>
+					<div class="shangou-right1">
+						<ul style="left: 0;">
+							<li class="one">
+								<div class="shangouzhao"></div>
+								<img src="img/diannao.jpg">
+								<div class="text1">小米游戏本15.6”8代i7</div>
+								<div class="text2">冷酷的性能怪兽</div>
+								<span class="money">
+									<span>7299元</span>
+									<s>7499元</s>
+								</span>
+							</li>
+							<li>
+								<div class="shangouzhao"></div>
+								<img src="img/diannao.jpg">
+								<div class="text1">小米游戏本15.6”8代i7</div>
+								<div class="text2">冷酷的性能怪兽</div>
+								<span class="money">
+									<span>7299元</span>
+									<s>7499元</s>
+								</span>
+							</li>
+							<li>
+								<div class="shangouzhao"></div>
+								<img src="img/diannao.jpg">
+								<div class="text1">小米游戏本15.6”8代i7</div>
+								<div class="text2">冷酷的性能怪兽</div>
+								<span class="money">
+									<span>7299元</span>
+									<s>7499元</s>
+								</span>
+							</li>
+							<li>
+								<div class="shangouzhao"></div>
+								<img src="img/diannao.jpg">
+								<div class="text1">小米游戏本15.6”8代i7</div>
+								<div class="text2">冷酷的性能怪兽</div>
+								<span class="money">
+									<span>7299元</span>
+									<s>7499元</s>
+								</span>
+							</li>
+							<li>
+								<div class="shangouzhao"></div>
+								<img src="img/diannao.jpg">
+								<div class="text1">小米游戏本15.6”8代i7</div>
+								<div class="text2">冷酷的性能怪兽</div>
+								<span class="money">
+									<span>7299元</span>
+									<s>7499元</s>
+								</span>
+							</li>
+							<li>
+								<div class="shangouzhao"></div>
+								<img src="img/diannao.jpg">
+								<div class="text1">小米游戏本15.6”8代i7</div>
+								<div class="text2">冷酷的性能怪兽</div>
+								<span class="money">
+									<span>7299元</span>
+									<s>7499元</s>
+								</span>
+							</li>
+							<li>
+								<div class="shangouzhao"></div>
+								<img src="img/diannao.jpg">
+								<div class="text1">小米游戏本15.6”8代i7</div>
+								<div class="text2">冷酷的性能怪兽</div>
+								<span class="money">
+									<span>7299元</span>
+									<s>7499元</s>
+								</span>
+							</li>
+							<li>
+								<div class="shangouzhao"></div>
+								<img src="img/diannao.jpg">
+								<div class="text1">小米游戏本15.6”8代i7</div>
+								<div class="text2">冷酷的性能怪兽</div>
+								<span class="money">
+									<span>7299元</span>
+									<s>7499元</s>
+								</span>
+							</li>
+
+							<li>
+								<div class="shangouzhao"></div>
+								<img src="img/diannao.jpg">
+								<div class="text1">1小米游戏本15.6”8代i7</div>
+								<div class="text2">冷酷的性能怪兽</div>
+								<span class="money">
+									<span>7299元</span>
+									<s>7499元</s>
+								</span>
+							</li>
+							<li>
+								<div class="shangouzhao"></div>
+								<img src="img/diannao.jpg">
+								<div class="text1">1小米游戏本15.6”8代i7</div>
+								<div class="text2">冷酷的性能怪兽</div>
+								<span class="money">
+									<span>7299元</span>
+									<s>7499元</s>
+								</span>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
-			<div class="shangou-bottom">
-				<div class="shangou-left1">
-					<div class="time">20:00场</div>
-					<img src="img/shandian.png">
-					<div class="text">距离结束还有</div>
-					<div class="box box1">00</div>
-					<div class="maohao">:</div>
-					<div class="box">01</div>
-					<div class="maohao">:</div>
-					<div class="box">02</div>
-				</div>
-				<div class="shangou-right1">
-					<ul>
-						<li class="one">
-							<div class="shangouzhao"></div>
-							<img src="img/diannao.jpg">
-							<div class="text1">小米游戏本15.6”8代i7</div>
-							<div class="text2">冷酷的性能怪兽</div>
-							<span class="money">
-								<span>7299元</span>
-								<s>7499元</s>
-							</span>
-						</li>
-						<li>
-							<div class="shangouzhao"></div>
-							<img src="img/diannao.jpg">
-							<div class="text1">小米游戏本15.6”8代i7</div>
-							<div class="text2">冷酷的性能怪兽</div>
-							<span class="money">
-								<span>7299元</span>
-								<s>7499元</s>
-							</span>
-						</li>
-						<li>
-							<div class="shangouzhao"></div>
-							<img src="img/diannao.jpg">
-							<div class="text1">小米游戏本15.6”8代i7</div>
-							<div class="text2">冷酷的性能怪兽</div>
-							<span class="money">
-								<span>7299元</span>
-								<s>7499元</s>
-							</span>
-						</li>
-						<li>
-							<div class="shangouzhao"></div>
-							<img src="img/diannao.jpg">
-							<div class="text1">小米游戏本15.6”8代i7</div>
-							<div class="text2">冷酷的性能怪兽</div>
-							<span class="money">
-								<span>7299元</span>
-								<s>7499元</s>
-							</span>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
 		</div>
 		<!-- 小米闪购结束 -->
 		<div class="xiaomiplay-con">
-		<div class="xiaomiplay"><img src="img/xiaomiplay.png"></div>
+			<div class="xiaomiplay"><img src="img/xiaomiplay.png"></div>
 		</div>
 
 		<main>
@@ -1869,7 +1953,7 @@
 					<div class="home-top-left">家电</div>
 					<div class="home-top-right">
 						<ul>
-							<li class="list">热门</li>
+							<li class="active">热门</li>
 							<li>电视影音</li>
 							<li>电脑</li>
 							<li>家居</li>
@@ -1882,13 +1966,13 @@
 						<img src="img/jiadian2.jpg">
 					</div>
 					<div class="home-bottom-right">
-						<ul>
+						<ul class="active">
 							<li>
 								<div class="pingjia">
 									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
 									<div class="pingjia2">来自于 王静 的评价</div>
 								</div>
-								<div class="new">新品</div>
+								<div class="new">新品111</div>
 								<img src="img/kongtiao11.jpg">
 								<div class="text1">米家互联网空调（一级能效）</div>
 								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
@@ -1981,6 +2065,304 @@
 								</div>
 							</div>
 						</ul>
+						<ul>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品222</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="jian">减200元</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="jian">减200元</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="jian">减200元</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<div class="big-box">
+								<div class="box">
+									<div class="box-left">
+										<div class="text">小米净水器（厨下式）</div>
+										<div class="money">1799元</div>
+									</div>
+									<div class="box-right">
+										<img src="img/jingshuiqi.jpg">
+									</div>
+								</div>
+								<div class="box">
+									<div class="box-left">
+										<div class="text">小米净水器（厨下式）</div>
+										<div class="money">1799元</div>
+									</div>
+									<div class="box-right">
+										<img src="img/jingshuiqi.jpg">
+									</div>
+								</div>
+							</div>
+						</ul>
+						<ul>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品333</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="jian">减200元</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="jian">减200元</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="jian">减200元</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<div class="big-box">
+								<div class="box">
+									<div class="box-left">
+										<div class="text">小米净水器（厨下式）</div>
+										<div class="money">1799元</div>
+									</div>
+									<div class="box-right">
+										<img src="img/jingshuiqi.jpg">
+									</div>
+								</div>
+								<div class="box">
+									<div class="box-left">
+										<div class="text">小米净水器（厨下式）</div>
+										<div class="money">1799元</div>
+									</div>
+									<div class="box-right">
+										<img src="img/jingshuiqi.jpg">
+									</div>
+								</div>
+							</div>
+						</ul>
+						<ul>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品444</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="jian">减200元</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="jian">减200元</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">送给爸妈的，超实惠，冬天来了，选小米就对了</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="jian">减200元</div>
+								<img src="img/kongtiao11.jpg">
+								<div class="text1">米家互联网空调（一级能效）</div>
+								<div class="text2">1.5匹／全直流变频／高效制冷热</div>
+								<div class="text3">2499元<s>2599元</s></div>
+							</li>
+							<div class="big-box">
+								<div class="box">
+									<div class="box-left">
+										<div class="text">小米净水器（厨下式）</div>
+										<div class="money">1799元</div>
+									</div>
+									<div class="box-right">
+										<img src="img/jingshuiqi.jpg">
+									</div>
+								</div>
+								<div class="box">
+									<div class="box-left">
+										<div class="text">小米净水器（厨下式）</div>
+										<div class="money">1799元</div>
+									</div>
+									<div class="box-right">
+										<img src="img/jingshuiqi.jpg">
+									</div>
+								</div>
+							</div>
+						</ul>
+
 					</div>
 				</div>
 			</div>
@@ -1994,7 +2376,7 @@
 					<div class="zhineng-top-left">智能</div>
 					<div class="zhineng-top-right">
 						<ul>
-							<li class="list">热门</li>
+							<li class="active">热门</li>
 							<li>出行</li>
 							<li>健康</li>
 							<li>酷玩</li>
@@ -2008,13 +2390,405 @@
 						<img src="img/zhineng2.jpg">
 					</div>
 					<div class="zhineng-tottom-right">
-						<ul>
+						<ul class="active">
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品111</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
 							<li>
 								<div class="pingjia">
 									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
 									<div class="pingjia2">来自于 王静 的评价</div>
 								</div>
 								<div class="new">新品</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="jian">减200元</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="jian">减200元</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<div class="big-box">
+								<div class="box">
+									<div class="box-left">
+										<div class="text">小米净水器（厨下式）</div>
+										<div class="money">1799元</div>
+									</div>
+									<div class="box-right">
+										<img src="img/jingshuiqi.jpg">
+									</div>
+								</div>
+								<div class="box">
+									<div class="box-left">
+										<div class="text">小米净水器（厨下式）</div>
+										<div class="money">1799元</div>
+									</div>
+									<div class="box-right">
+										<img src="img/jingshuiqi.jpg">
+									</div>
+								</div>
+							</div>
+						</ul>
+						<ul>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品222</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="jian">减200元</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="jian">减200元</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<div class="big-box">
+								<div class="box">
+									<div class="box-left">
+										<div class="text">小米净水器（厨下式）</div>
+										<div class="money">1799元</div>
+									</div>
+									<div class="box-right">
+										<img src="img/jingshuiqi.jpg">
+									</div>
+								</div>
+								<div class="box">
+									<div class="box-left">
+										<div class="text">小米净水器（厨下式）</div>
+										<div class="money">1799元</div>
+									</div>
+									<div class="box-right">
+										<img src="img/jingshuiqi.jpg">
+									</div>
+								</div>
+							</div>
+						</ul>
+						<ul>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品333</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="jian">减200元</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="jian">减200元</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<div class="big-box">
+								<div class="box">
+									<div class="box-left">
+										<div class="text">小米净水器（厨下式）</div>
+										<div class="money">1799元</div>
+									</div>
+									<div class="box-right">
+										<img src="img/jingshuiqi.jpg">
+									</div>
+								</div>
+								<div class="box">
+									<div class="box-left">
+										<div class="text">小米净水器（厨下式）</div>
+										<div class="money">1799元</div>
+									</div>
+									<div class="box-right">
+										<img src="img/jingshuiqi.jpg">
+									</div>
+								</div>
+							</div>
+						</ul>
+						<ul>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品444</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="jian">减200元</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="jian">减200元</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<img src="img/zhineng3.png">
+								<div class="text1">米家飞利浦智睿台灯二代</div>
+								<div class="text2">感知环境光，主动优化场景照明</div>
+								<div class="text3">189元<s>199元</s></div>
+							</li>
+							<div class="big-box">
+								<div class="box">
+									<div class="box-left">
+										<div class="text">小米净水器（厨下式）</div>
+										<div class="money">1799元</div>
+									</div>
+									<div class="box-right">
+										<img src="img/jingshuiqi.jpg">
+									</div>
+								</div>
+								<div class="box">
+									<div class="box-left">
+										<div class="text">小米净水器（厨下式）</div>
+										<div class="money">1799元</div>
+									</div>
+									<div class="box-right">
+										<img src="img/jingshuiqi.jpg">
+									</div>
+								</div>
+							</div>
+						</ul>
+						<ul>
+							<li>
+								<div class="pingjia">
+									<div class="pingjia1">简洁～不失高贵～大方～不失档次～小米的智能～飞利...</div>
+									<div class="pingjia2">来自于 王静 的评价</div>
+								</div>
+								<div class="new">新品555</div>
 								<img src="img/zhineng3.png">
 								<div class="text1">米家飞利浦智睿台灯二代</div>
 								<div class="text2">感知环境光，主动优化场景照明</div>
@@ -2118,19 +2892,31 @@
 				<div class="weinituijian-top">
 					<div class="weinituijian-top-left">为你推荐</div>
 					<div class="weinituijian-top-right">
-						<div class="top-right-box1">
+						<div class="right-box1">
 							<i class="iconfont">&#xe602;</i>
 						</div>
-						<div class="top-right-box2">
+						<div class="right-box2">
 							<i class="iconfont">&#xe61c;</i>
 						</div>
 					</div>
 				</div>
 				<div class="weinituijian-bottom">
-					<ul>
+					<ul style="left: 0;">
 						<li class="list1">
 							<img src="img/pms_1544600277.71456712!140x140.jpg">
-							<div class="text">黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
+							<div class="text">2黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
+							<div class="money">228元</div>
+							<div class="pingjia">1人好评</div>
+						</li>
+						<li>
+							<img src="img/pms_1544600277.71456712!140x140.jpg">
+							<div class="text">2黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
+							<div class="money">228元</div>
+							<div class="pingjia">1人好评</div>
+						</li>
+						<li>
+							<img src="img/pms_1544600277.71456712!140x140.jpg">
+							<div class="text">2黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
 							<div class="money">228元</div>
 							<div class="pingjia">1人好评</div>
 						</li>
@@ -2147,48 +2933,6 @@
 							<div class="pingjia">1人好评</div>
 						</li>
 						<li>
-							<img src="img/pms_1544600277.71456712!140x140.jpg">
-							<div class="text">黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
-							<div class="money">228元</div>
-							<div class="pingjia">1人好评</div>
-						</li>
-						<li>
-							<img src="img/pms_1544600277.71456712!140x140.jpg">
-							<div class="text">黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
-							<div class="money">228元</div>
-							<div class="pingjia">1人好评</div>
-						</li>
-						<li class="list1">
-							<img src="img/pms_1544600277.71456712!140x140.jpg">
-							<div class="text">黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
-							<div class="money">228元</div>
-							<div class="pingjia">1人好评</div>
-						</li>
-						<li>
-							<img src="img/pms_1544600277.71456712!140x140.jpg">
-							<div class="text">黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
-							<div class="money">228元</div>
-							<div class="pingjia">1人好评</div>
-						</li>
-						<li>
-							<img src="img/pms_1544600277.71456712!140x140.jpg">
-							<div class="text">黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
-							<div class="money">228元</div>
-							<div class="pingjia">1人好评</div>
-						</li>
-						<li>
-							<img src="img/pms_1544600277.71456712!140x140.jpg">
-							<div class="text">黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
-							<div class="money">228元</div>
-							<div class="pingjia">1人好评</div>
-						</li>
-						<li>
-							<img src="img/pms_1544600277.71456712!140x140.jpg">
-							<div class="text">黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
-							<div class="money">228元</div>
-							<div class="pingjia">1人好评</div>
-						</li>
-						<li class="list1">
 							<img src="img/pms_1544600277.71456712!140x140.jpg">
 							<div class="text">黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
 							<div class="money">228元</div>
@@ -2218,6 +2962,56 @@
 							<div class="money">228元</div>
 							<div class="pingjia">1人好评</div>
 						</li>
+						<li>
+							<img src="img/pms_1544600277.71456712!140x140.jpg">
+							<div class="text">黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
+							<div class="money">228元</div>
+							<div class="pingjia">1人好评</div>
+						</li>
+						<li>
+							<img src="img/pms_1544600277.71456712!140x140.jpg">
+							<div class="text">黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
+							<div class="money">228元</div>
+							<div class="pingjia">1人好评</div>
+						</li>
+						<li>
+							<img src="img/pms_1544600277.71456712!140x140.jpg">
+							<div class="text">黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
+							<div class="money">228元</div>
+							<div class="pingjia">1人好评</div>
+						</li>
+						<li>
+							<img src="img/pms_1544600277.71456712!140x140.jpg">
+							<div class="text">黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
+							<div class="money">228元</div>
+							<div class="pingjia">1人好评</div>
+						</li>
+						<li>
+							<img src="img/pms_1544600277.71456712!140x140.jpg">
+							<div class="text">黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
+							<div class="money">228元</div>
+							<div class="pingjia">1人好评</div>
+						</li>
+						<li>
+							<img src="img/pms_1544600277.71456712!140x140.jpg">
+							<div class="text">1黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
+							<div class="money">228元</div>
+							<div class="pingjia">1人好评</div>
+						</li>
+						<li>
+							<img src="img/pms_1544600277.71456712!140x140.jpg">
+							<div class="text">1黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
+							<div class="money">228元</div>
+							<div class="pingjia">1人好评</div>
+						</li>
+						<li>
+							<img src="img/pms_1544600277.71456712!140x140.jpg">
+							<div class="text">1黑鲨双翼手柄单滑轨保护壳套装-小米8定制版</div>
+							<div class="money">228元</div>
+							<div class="pingjia">1人好评</div>
+						</li>
+
+
 					</ul>
 				</div>
 			</div>
@@ -2277,17 +3071,31 @@
 				</div>
 				<div class="content-bottom">
 					<ul>
-						<li class="list1">
+						<li class="list1 li1">
 
 							<div class="text1">图书</div>
-							<div class="big-box">
-								<div class="text2">哈利·波特与被诅咒的孩子</div>
-								<div class="text3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
-								<div class="text4">29.37元</div>
-								<img src="img/halibote.png">
+							<div class="box" style="display: flex; width: 300%; position: relative; left: 0; transition: all 0.5s;">
+								<div class="big-box">
+									<div class="text2">哈利·波特与被诅咒的孩子</div>
+									<div class="text3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
+									<div class="text4">29.371元</div>
+									<img src="img/halibote.png">
+								</div>
+								<div class="big-box">
+									<div class="text2">哈利·波特与被诅咒的孩子</div>
+									<div class="text3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
+									<div class="text4">29.372元</div>
+									<img src="img/halibote.png">
+								</div>
+								<div class="big-box">
+									<div class="text2">哈利·波特与被诅咒的孩子</div>
+									<div class="text3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
+									<div class="text4">29.373元</div>
+									<img src="img/halibote.png">
+								</div>
 							</div>
 							<div class="dian">
-								<p class="list"></p>
+								<p class="list list1 active"></p>
 								<p class="list1"></p>
 								<p class="list1"></p>
 							</div>
@@ -2298,16 +3106,30 @@
 								<i class="iconfont">&#xe64b;</i>
 							</div>
 						</li>
-						<li>
+						<li class="li2">
 							<div class="text1">图书</div>
-							<div class="big-box">
-								<div class="text2">哈利·波特与被诅咒的孩子</div>
-								<div class="text3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
-								<div class="text4">29.37元</div>
-								<img src="img/halibote.png">
+							<div class="box" style="display: flex; width: 300%; position: relative; left: 0; transition: all 0.5s;">
+								<div class="big-box">
+									<div class="text2">哈利·波特与被诅咒的孩子</div>
+									<div class="text3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
+									<div class="text4">29.371元</div>
+									<img src="img/halibote.png">
+								</div>
+								<div class="big-box">
+									<div class="text2">哈利·波特与被诅咒的孩子</div>
+									<div class="text3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
+									<div class="text4">29.372元</div>
+									<img src="img/halibote.png">
+								</div>
+								<div class="big-box">
+									<div class="text2">哈利·波特与被诅咒的孩子</div>
+									<div class="text3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
+									<div class="text4">29.373元</div>
+									<img src="img/halibote.png">
+								</div>
 							</div>
 							<div class="dian">
-								<p class="list"></p>
+								<p class="list list1 active"></p>
 								<p class="list1"></p>
 								<p class="list1"></p>
 							</div>
@@ -2318,16 +3140,30 @@
 								<i class="iconfont">&#xe64b;</i>
 							</div>
 						</li>
-						<li>
+						<li class="li3">
 							<div class="text1">图书</div>
-							<div class="big-box">
-								<div class="text2">哈利·波特与被诅咒的孩子</div>
-								<div class="text3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
-								<div class="text4">29.37元</div>
-								<img src="img/halibote.png">
+							<div class="box" style="display: flex; width: 300%; position: relative; left: 0; transition: all 0.5s;">
+								<div class="big-box">
+									<div class="text2">哈利·波特与被诅咒的孩子</div>
+									<div class="text3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
+									<div class="text4">29.371元</div>
+									<img src="img/halibote.png">
+								</div>
+								<div class="big-box">
+									<div class="text2">哈利·波特与被诅咒的孩子</div>
+									<div class="text3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
+									<div class="text4">29.372元</div>
+									<img src="img/halibote.png">
+								</div>
+								<div class="big-box">
+									<div class="text2">哈利·波特与被诅咒的孩子</div>
+									<div class="text3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
+									<div class="text4">29.373元</div>
+									<img src="img/halibote.png">
+								</div>
 							</div>
 							<div class="dian">
-								<p class="list"></p>
+								<p class="list list1 active"></p>
 								<p class="list1"></p>
 								<p class="list1"></p>
 							</div>
@@ -2338,16 +3174,30 @@
 								<i class="iconfont">&#xe64b;</i>
 							</div>
 						</li>
-						<li>
+						<li class="li4">
 							<div class="text1">图书</div>
-							<div class="big-box">
-								<div class="text2">哈利·波特与被诅咒的孩子</div>
-								<div class="text3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
-								<div class="text4">29.37元</div>
-								<img src="img/halibote.png">
+							<div class="box" style="display: flex; width: 300%; position: relative; left: 0; transition: all 0.5s;">
+								<div class="big-box">
+									<div class="text2">哈利·波特与被诅咒的孩子</div>
+									<div class="text3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
+									<div class="text4">29.371元</div>
+									<img src="img/halibote.png">
+								</div>
+								<div class="big-box">
+									<div class="text2">哈利·波特与被诅咒的孩子</div>
+									<div class="text3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
+									<div class="text4">29.372元</div>
+									<img src="img/halibote.png">
+								</div>
+								<div class="big-box">
+									<div class="text2">哈利·波特与被诅咒的孩子</div>
+									<div class="text3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
+									<div class="text4">29.373元</div>
+									<img src="img/halibote.png">
+								</div>
 							</div>
 							<div class="dian">
-								<p class="list"></p>
+								<p class="list list1 active"></p>
 								<p class="list1"></p>
 								<p class="list1"></p>
 							</div>
@@ -2490,8 +3340,8 @@
 			</div>
 			<!-- 底部结束 -->
 			<!-- 固定开始 -->
-			<ul class="guding">
-				<li class="guding-phone">
+			<ul class="guding-small">
+				<li class="guding-small-phone">
 					<img src="img/guding1.png">
 					<div class="saoyisao">
 						<img src="img/2weima.png">
@@ -2499,23 +3349,49 @@
 						<div class="text">一分赢好礼</div>
 					</div>
 				</li>
-				<li class="guding-geren">
+				<li class="guding-small-geren">
 					<img src="img/guding2.png">
 					<div class="guding-text">个人中心</div>
 				</li>
-				<li class="guding-erji">
+				<li class="guding-small-erji">
 					<img src="img/guding3.png">
 					<div class="guding-text">联系客服</div>
 				</li>
-				<li class="guding-car">
+				<li class="guding-small-car">
 					<img src="img/guding4.png">
 					<div class="guding-text">购物车</div>
 				</li>
-				<li class="guding-top">
+				<li class="guding-small-top">
+					<a href="#back">
 					<img src="img/guding5.png">
+					</a>
 					<div class="guding-text">回顶部</div>
 				</li>
 			</ul>
+			
+			<ul class="guding-big">
+				<li class="guding-phone">
+					<img src="img/guding1.png">
+					
+				</li>
+				<li class="guding-geren">
+					<img src="img/guding2.png">
+					
+				</li>
+				<li class="guding-erji">
+					<img src="img/guding3.png">
+					
+				</li>
+				<li class="guding-car">
+					<img src="img/guding4.png">
+					
+				</li>
+				<li class="guding-top1">
+					<img src="img/guding5.png">
+					
+				</li>
+			</ul>
+			
 			<!-- 固定结束 -->
 			<div class="end">
 				<div class="end-top">
@@ -2609,4 +3485,5 @@
 
 		</main>
 	</body>
+	<script src="js/style.js"></script>
 </html>
